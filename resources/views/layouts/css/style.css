@@ -1,0 +1,101 @@
+/*
+    Edit and override selectors
+    of styles that act together with classes
+    bootstrap.
+*/
+
+.container-data {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-list {
+    width: 90%;
+}
+
+#navTitle {
+    margin-left: 5%;
+    font-family: serif;
+    color: white;
+}
+
+#formPost {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+#list {
+    display: flex;
+}
+
+#containList {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#a-linha {
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: #c3c7c4;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+#a-linha-dinamico {
+    width: 100%;
+    height: 10em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+#a-linha-edit {
+    width: 60%;
+    height: 3em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: #c3c7c4;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+#fmr {
+    width: 60%;
+    height: 5em;
+    background-color: #f2f2f2;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#divBtn {
+    margin: auto;
+    margin-top: 4%;
+    text-align: center;
+}
+
+.align {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+#logout {
+    color: #323638 !important;
+}
+
+.a-color a {
+    color: #DCDAD7 !important;
+    margin-right: 15px !important;
+}

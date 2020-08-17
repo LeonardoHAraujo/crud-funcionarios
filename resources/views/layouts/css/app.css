@@ -1,0 +1,46 @@
+/* auxiliary styles */
+
+.container-data {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-list {
+    width: 90%;
+}
+
+.align {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+#logout {
+    color: #323638 !important;
+}
+
+.a-color a {
+    color: #DCDAD7 !important;
+    margin-right: 15px !important;
+}
+
+#edit {
+    margin-bottom: 15px;
+}
+
+.hide-message {
+    display: none;
+}
+
+#alert-message {
+    margin: 15px 15px 0px 15px;
+}
+
+#btn-area {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-area2 {
+    display: flex;
+    flex-direction: column;
+}
